@@ -1,10 +1,13 @@
-public class LE1_Prob4
+import java.io.*;
+public class Main
 {
-	public static void main(String[] args){
-	    int  x = 4;
-	    for ( int i = 1 ; i <=10 ; i++){
-		System.out.println(x +" * " + i + " = " + (x*i));  	
-
+	public static void main(String[] args)
+	{
+	    int n=Integer.parseInt(args[0]);
+	    for(int i=1;i<=10;i++)
+	    {
+	        System.out.print(n+"*"+i+"="+n*i);
+		System.out.println();
+	    }
 	}
-     }
 }

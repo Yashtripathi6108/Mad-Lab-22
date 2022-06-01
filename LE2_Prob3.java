@@ -1,6 +1,6 @@
 public class Mother
 {
-  void show()
+  static void show()
   {
       System.out.println("Mother is Called");
   }
@@ -8,7 +8,7 @@ public class Mother
 
 public class Child extends Mother
 {
-   void show()
+   static void show()
     {
         System.out.println("Child is called");
     }     
@@ -22,5 +22,7 @@ public class Main
 	   m.show();
 	   Child c=new Child();
 	   c.show();
+	   Mother m1=new Child();
+	   m1.show();
 	}
 }
